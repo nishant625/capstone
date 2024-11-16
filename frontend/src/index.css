@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add a maximum width to the content */
+.max-w-screen-xl {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content */
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed; /* Fix the column widths */
+  }
+  
+  th, td {
+    text-align: center; /* Center align text in columns */
+  }
+  
